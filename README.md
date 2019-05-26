@@ -1,2 +1,2 @@
 # linearAlgebra
-this project contain many useful scripts
+this project contains many useful scripts
