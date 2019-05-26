@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style.css"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="../../libraryMathDetails/universal.js"></script>
+		<script src="../../libraryMathDetails/fractionLibrary.js"></script>
+    </head>
+    <body>
+		<div id="condition">
+			<p> Ввести визначник 4-го порядку</p>
+			<form>
+				<div id="firstEquation">
+					<input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm">
+				</div>
+<!--				<div class="clear"></div>-->
+				<div id="secondEquation">
+					<input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"> 
+				</div>
+<!--				<div class="clear"></div>-->
+				<div id="thirdEquation">
+					<input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"> 				
+				</div>
+				<div id="fourthEquation">
+					<input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"><input type="text" class="smallForm"> 				
+				</div>
+				<div class="clear"></div>
+				Обчислити визначник за розкладанням по і-<input type="number" name="sequenceNumber" min="1" class="smallForm">му 
+				<select name="orientation">
+					<option value="row">Рядка</option>
+					<option value="column">Стовпця</option>
+				</select>
+				<div class="clear"></div>
+				<label><input type="button" value="Обчислити визначник" onclick="processData()"></label>
+			</form>
+		</div>
+		<div id="solver">
+		
+		</div>
+        <script src="../algebra.js"></script>
+		<script src="determinant4.js"></script>
+    </body>
+</html>

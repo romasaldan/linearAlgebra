@@ -1,0 +1,56 @@
+fieldset {
+    width: 500px;
+    background:linear-gradient(to left,green,#36c436);
+}
+
+legend {
+    color: chocolate;
+}
+.numb {
+    width: 50px;
+}
+input[type='button'] {
+    background: linear-gradient(to left, red,orange);
+}
+input[type='button']:active {
+    background: linear-gradient(to right,lightGreen,green);
+}
+.none {
+    display: none;
+}
+.description {
+    color:#404040;
+    transition-duration: 2s;
+}
+.description:hover {
+    color: #fdf414;
+}
+table {
+    border-collapse: collapse;
+}
+#values td {
+    text-align: center;
+}
+.solve  {
+    padding-left: 20px;
+    width:  700px;
+}
+.smallForm {
+    width: 40px;
+}
+input[type='button'] {
+    width: auto;
+    border-radius: 10px;
+}
+input[name='nameOf'] {
+    width: 180px
+}
+#condition {
+	width: 60%;
+	background-color: darksalmon;
+}
+.clear {
+	height: 10px;
+	width: 100%;
+	
+}
