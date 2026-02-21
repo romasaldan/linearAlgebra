@@ -17,4 +17,4 @@ This project was created during my university years to automate matrix-related a
 * **Focus:** Algorithmic logic and mathematical accuracy.
 
 ---
-*This is an archived repository preserved for historical purposes. It showcases my early interest in computational mathematics and automation.*
+### *This is an archived repository preserved for historical purposes. It showcases my early interest in computational mathematics and automation.*
